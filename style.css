@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    /* font-family: sans-serif; */
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.blureffect{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(253, 129, 150);
+    filter: blur(20px);
+}
+#backgroundfame{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 218, 224);
+}
+#second{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(23, 10, 92);
+    filter: blur(20px);
+}
+#third{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(23, 10, 92);
+    filter: blur(20px);
+}
+
+#frame{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    /* padding: 30px 90px; */
+    position: absolute;
+   top: 0%;
+   
+
+}
+
+#rectangle{
+    width: 90%;
+    height: 90%;
+    /* background-color: white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(253, 253, 253);
+}
+#fourth{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(23, 10, 92);
+    filter: blur(20px);
+}
+#fifth{
+    position: absolute;
+    top: 60%;
+    left: 90%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(23, 10, 92);
+    filter: blur(50px);
+} 
+/* #sixth{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(23, 10, 92);
+    filter: blur(20px);
+} */
+#seventh{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(23, 10, 92);
+    filter: blur(20px);
+}
+#eight{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(23, 10, 92);
+    filter: blur(20px);
+}
+#nineth{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(253, 129, 150);
+    filter: blur(20px);
+}
+#overlay{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.644);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#ovelay2{
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+#left{
+    /* position: absolute; */
+    width: 5%;
+    height: 100%;
+    /* background-color: burlywood; */
+}
+#leftbutton{
+    width: 35px;
+    height: 35px; 
+    margin-top: 12px;
+    margin-left: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(180, 180, 180);
+}
+#leftbuttonbottam{
+    position: absolute;
+    bottom: 15px;
+    width: 40px;
+    height: 40px; 
+    margin-top: 12px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+#leftbuttonbottam i{
+    font-size: 25px;
+}
+#left #lineleft{
+width: 2px;
+height: 100%;
+background-color: rgb(201, 201, 201);
+margin-left: 75px;
+top: 0;
+ position: absolute;
+
+}
+
+
+
+#right{
+    /* position: absolute; */
+    width: 95%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+
+#navbar{
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar2 a{
+    width: 100%;
+    height: 5%;
+    margin-right: 90px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(124, 124, 124);
+}
+#navbar2 #heading{
+    color: black;
+    font-weight: 600;
+    margin-left: 55px;
+}
+#navbar3 a{
+   text-decoration: none;
+   font-family: sans-serif;
+   margin-left: 20px;
+   color: rgb(124, 124, 124);
+}
+
+#navbar3 #abutton{
+    width: 20px;
+    padding: 12px 12px;
+    color: white;
+    background-color: black;
+}
+
+#rightnavbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   /* justify-content: space-between; */
+   /* padding: 0px 150px; */
+}
+#rightnavbar>h1{
+font-size: 50px;
+/* margin-right: 150px; */
+}
+#rightnavbar2 h1{
+    font-size: 100px;
+    font-weight: 900;
+   
+}
+#rightnavbar2 p{
+        font-size: 15px;
+        width: 60%;
+        font-weight: 500;
+        
+}
+
+#rightnavbar button{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        font-size: 8px;
+        border: none;
+       background-color: white;
+}
+#rightnavbar2{
+    width: 50%;
+}
+#rightnavbar3 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+#rightnavbar31{
+    font-weight: 600;
+}
+#rightnavbar31 h5{
+    margin-bottom: 12px;
+}
+#rightnavbar3 #rightnavbar32 .circle32{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: rgb(228, 121, 102);
+}
+
+#rightnavbar3 #rightnavbar33 .rightnavbar331{
+    width: 300px;
+}
+
+#rightnavbar33 .rightnavbar331{
+    margin-bottom: 20px;
+}
+
+#rightnavbar33 .rightnavbar331 h1{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 900;
+}
+#rightnavbar33 .rightnavbar331 p{
+ color: rgb(124, 124, 124);
+ font-size: 15px;
+}
+
+
+#rightnavbar34 h5{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+#rightnavbar34 p{
+    margin-top: 25px;
+    color: rgb(194, 193, 193);
+}
+
+
+
+#rightnavbar32 .circle32 img{
+    width: 100px;
+    height: 100px;
+}
+#rightnavbar32 .circle32 img{
+    width: 100px;
+    height: 100px;
+}
+#rightnavbar32 .circle32 img{
+    width: 100px;
+    height: 100px;
+}
